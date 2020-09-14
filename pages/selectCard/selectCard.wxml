@@ -1,0 +1,63 @@
+<!--pages/selectCard/selectCard.wxml-->
+<view class="meal">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" />
+  </page-meta>
+  <!-- 套餐一 -->
+  <view class="meal-one">
+    <view class="meal-one-text">充值套餐一（时间套餐）</view>
+    <view class="meal-one-list">
+      <van-row gutter="10">
+        <van-col span="8">
+          <view class="meal-one-money">
+            <view class="meal-one-money-num">0.5元</view>
+            <span class="meal-one-money-price">售价30元</span>
+          </view>
+        </van-col>
+        <van-col span="8">
+          <view class="meal-one-money-noselect">
+            <view class="meal-one-money-num">0.5元</view>
+            <span class="meal-one-money-price">售价30元</span>
+          </view>
+        </van-col>
+        <van-col span="8">
+          <view class="meal-one-money-noselect">
+            <view class="meal-one-money-num">0.5元</view>
+            <span class="meal-one-money-price">售价30元</span>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+  <!-- 套餐二 -->
+  <view class="meal-two">
+    <view class="meal-one-text">充值套餐二（水量套餐）</view>
+    <view class="meal-two-list">
+      <van-row gutter="10">
+        <van-col span="8">
+          <view class="meal-two-money">
+            <view class="meal-one-money-num">10L</view>
+            <span class="meal-one-money-price">售价30元</span>
+          </view>
+        </van-col>
+        <van-col span="8">
+          <view class="meal-two-money-noselect">
+            <view class="meal-one-money-num">10L</view>
+            <span class="meal-one-money-price">售价30元</span>
+          </view>
+        </van-col>
+        <van-col span="8">
+          <view class="meal-two-money-noselect">
+            <view class="meal-one-money-num">10L</view>
+            <span class="meal-one-money-price">售价30元</span>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+  <view class="transfer-btn">
+  <van-button type="info" size="large" bindtap="transfer">立即转移</van-button>
+</view>
+</view>

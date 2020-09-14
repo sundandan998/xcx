@@ -1,0 +1,17 @@
+<!--pages/bindWaterCard/bindWaterCard.wxml-->
+<view class="bind-water-card">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" color-animation-timing-func="easeIn" />
+  </page-meta>
+  <view class="bind-water-card-num">
+    <van-cell-group>
+      <van-field label="水卡号" right-icon="scan" value="{{ value }}" placeholder="请输入卡号或点击扫一扫" border="{{ false }}"
+        bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <view class="bind-water-card-btn">
+    <van-button type="info" size="large">绑定</van-button>
+  </view>
+</view>

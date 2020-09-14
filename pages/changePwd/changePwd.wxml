@@ -1,0 +1,44 @@
+<!--pages/changePwd/changePwd.wxml-->
+<!--pages/forget/forget.wxml-->
+<view class="forget">
+<view class="forget-text">忘记密码</view>
+<view class="forget-from">
+  <van-cell-group>
+  <van-field
+    value="{{ username }}"
+    clearable
+    left-icon="phone-o"
+    label=""
+    placeholder="请输入手机号"
+    bind:click-icon="onClickIcon"
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ sms }}"
+    center
+    left-icon="bag-o"
+    clearable
+    placeholder="请输入短信验证码"
+    border="{{ false }}"
+    use-button-slot
+  >
+    <van-button slot="button" size="small" type="info"
+      >发送验证码</van-button
+    >
+  </van-field>
+  <van-field
+    value="{{ password }}"
+    type="password"
+    left-icon="bag-o"
+    label=""
+    clearable
+    placeholder="请输入密码"
+    border="{{ false }}"
+  />
+</van-cell-group>
+</view>
+<view class="forget-btn">
+    <van-button type="info" round  size="large">修改密码</van-button>
+  </view>
+</view>
+

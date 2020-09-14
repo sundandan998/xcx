@@ -1,0 +1,170 @@
+/* pages/data/data.wxss */
+page {
+  background-color: #f2f2f2;
+}
+
+.data-title {
+  height: 120px;
+  line-height: 90px;
+  display: inline-block;
+  margin-left: 20px;
+  color: #343434;
+  font-size: 18px;
+}
+
+.data-top image {
+  height: 110px;
+  width: 110px;
+}
+
+/*优质水*/
+.data-water {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.data-water-title {
+  padding: 15px;
+}
+
+.data-water-title-top-text {
+  color: #666666;
+  font-size: 14px;
+}
+
+.data-water-title image {
+  width: 14px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.data-water-title-text {
+  font-size: 12px;
+  color: #666666;
+}
+
+.data-water-center {
+  height: 10px;
+  width: 28px;
+  margin: 2px 0 0 30px;
+  display: block;
+}
+
+.data-water-bot {
+  padding: 0 20px 20px 38px;
+}
+
+.data-water-bot-num {
+  font-size: 25px;
+  color: #666666;
+}
+
+.data-water-bot-text {
+  font-size: 12px;
+  color: #666666;
+  margin: 7px 0 0 15px;
+}
+
+.data-water-bot-jh {
+  color: #F8B04E;
+  font-size: 12px;
+  margin: 12px 0 0 32px;
+}
+
+.data-water-bot-blue {
+  font-size: 25px;
+  color: #5474FF;
+}
+
+/* 滤芯使用情况 */
+.data-situation {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.data-situation-title {
+  color: #666666;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.data-situation-card-list {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.data-situation-card-round {
+  width: 10px;
+  height: 10px;
+  background-color: #AABAFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.data-situation-card-num {
+  font-size: 15px;
+  color: #666666;
+  position: relative;
+  left: -10px;
+  top: -3px;
+}
+
+.data-situation-card-name {
+  font-size: 16px;
+  color: #343434;
+}
+
+.data-situation-card-day {
+  color: #666666;
+  font-size: 13px;
+  margin: 10px 0 10px 20px;
+}
+.data-situation-card-step{
+  margin: 20px 0 10px 20px;
+}
+/* 修改进度条样式 */
+.van-progress{
+  border-radius: 15px;
+  height: 7px;
+}
+.van-progress__portion{
+  background-color: #AABAFF !important;
+}
+.van-progress__pivot{
+  background-color: #AABAFF !important;
+}
+.data-select-meal{
+  width: 90%;
+  margin: 0px auto;
+  border-radius: 15px;
+}
+.data-select-meal-title{
+  width: 90%;
+  color: #666666;
+  margin-top: 10px;
+  display: inline-block;
+}
+.data-select-meal-detail{
+margin: 20px 0;
+background-color: #fff;
+padding: 15px;
+line-height: 33px;
+color: #343434;
+font-size: 14px;
+border-radius: 10px;
+}
+.data-select-meal-detail image{
+  width: 28px;
+  height: 7px;
+  margin: 0 10px;
+}
+.data-select-meal-mounth{
+  color: #5474FF;
+}
+.data-select-meal-date{
+  color: #666666;
+  font-size: 13px;
+}

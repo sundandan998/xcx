@@ -1,0 +1,38 @@
+<!--pages/bindingdevice/bindingdevice.wxml-->
+<view class="binding-device">
+  <!-- 头部导航 -->
+  <page-meta>
+  <navigation-bar
+    title="{{nbTitle}}"
+    loading="{{nbLoading}}"
+    front-color="{{nbFrontColor}}"
+    background-color="{{nbBackgroundColor}}"
+    color-animation-duration="0"
+    color-animation-timing-func="easeIn"
+  />
+</page-meta>
+<!-- 选择设备 -->
+<view class="select-device">
+  <van-dropdown-menu class="device-drop-down">
+  <van-dropdown-item value="{{ value }}" options="{{ option }}" />
+</van-dropdown-menu>
+<image src="../../images/no-connect.png" wx:if="{{isHide}}"></image>
+<image src="../../images/connect-success.png" wx:if="{{isShow}}"></image>
+
+</view>
+<view class="device-name">
+  <van-field
+  placeholder="在此添加设备名称"
+    value=""
+    label="设备名称"
+    right-icon="edit"
+    border="{{ false }}"
+  />
+</view>
+<view class="bind-device-btn">
+  <van-button type="info" size="large" bindtap="dialog">绑定</van-button>
+  <van-dialog id="van-dialog" />
+</view>
+<!-- <view class="device-dialog"> 
+</view> -->
+</view>

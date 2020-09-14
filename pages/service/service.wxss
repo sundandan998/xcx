@@ -1,0 +1,7 @@
+/* pages/service/service.wxss */
+.service-tel{
+  font-size: 18px;
+  color: #333;
+  margin: 50px auto;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+<!--pages/editPwd/editPwd.wxml-->
+<view class="editPwd">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" color-animation-timing-func="easeIn" />
+  </page-meta>
+  <view class="editPwd-detail">
+    <van-cell-group>
+      <van-field  label="原密码" model:value="{{ value }}" placeholder="请输入原密码" border="{{ false }}" />
+      <van-field  label="现密码" model:value="{{ value }}" placeholder="请输入现密码" border="{{ false }}" />
+      <van-field  label="确认密码" model:value="{{ value }}" placeholder="请输入确认密码" border="{{ false }}" />
+    </van-cell-group>
+  </view>
+  <view class="edit-pwd-btn">
+    <van-button type="default" size="large">确定</van-button>
+  </view>
+</view>

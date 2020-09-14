@@ -1,0 +1,16 @@
+<!--pages/rechargeSuccess/rechargeSuccess.wxml-->
+<view class="recharge-success">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" color-animation-timing-func="easeIn" />
+  </page-meta>
+  <view class="recharge-img">
+    <image src="../../images/success.png"></image>
+    <view class="recharge-text">充值成功</view>
+  </view>
+  <view class="recharge-btn">
+    <van-button type="info" size="large" class="button" bindtap="continue">继续充值</van-button>
+    <van-button type="default" size="large" bindtap="record">充值记录</van-button>
+  </view>
+</view>

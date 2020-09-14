@@ -1,0 +1,24 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" />
+  </page-meta>
+  
+  <view class="detail-info">
+    <view class="detail-info-card">
+      <view><span class="detail-info-l">水卡号 : </span><span class="detail-info-r">1347565885</span></view>
+      <view><span class="detail-info-l">转移方式 : </span><span class="detail-info-r">从小区售水机转移到家用净水器</span></view>
+      <view><span class="detail-info-l">转移时间 : </span><span class="detail-info-r">2020-08-23 18:34:21</span></view>
+    </view>
+    <view class="detail-info-meal">
+      <view><span class="detail-info-l">家用净水器ID : </span><span class="detail-info-r">133456</span></view>
+      <view><span class="detail-info-l">家用净水器名称 : </span><span class="detail-info-r">张三家净水器</span></view>
+    </view>
+    <view class="detail-info-name">
+      <view><span class="detail-info-l">选择套餐 : </span><span class="detail-info-r">套餐一（时间套餐）</span></view>
+      <view><span class="detail-info-l">已选套餐价格 : </span><span class="detail-info-r">20元</span></view>
+    </view>
+  </view>
+</view>

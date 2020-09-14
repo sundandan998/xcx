@@ -1,0 +1,23 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine">
+  <view class="mine-top">
+    <image src="../../images/bg-mine.png"></image>
+    <view class="mine-top-title">我的</view>
+    <view class="mine-username">
+      <image src="../../images/head.png"></image>
+      <view class="mine-username-text">
+        <span>用户昵称</span>
+        <view>15812345678</view>
+      </view>
+    </view>
+  </view>
+  <view class="mine-info">
+    <van-cell title="姓名" value="用户昵称" size="large" />
+    <van-cell is-link title="绑定水卡" link-type="navigateTo" url="/pages/bindWaterCard/bindWaterCard" />
+    <van-cell is-link title="登录密码" link-type="navigateTo" value="内容" url="/pages/editPwd/editPwd" />
+    <van-cell is-link title="帮助与客服" link-type="navigateTo" url="/pages/service/service" />
+  </view>
+  <view class="mine-btn">
+    <van-button type="default" size="large">退出登录</van-button>
+  </view>
+</view>

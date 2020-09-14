@@ -1,0 +1,53 @@
+<!--pages/reportRepair/reportRepair.wxml-->
+<view class="repair">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" />
+  </page-meta>
+  <!-- 选择故障现象 -->
+  <view class="select-repair">
+    <view class="select-repair-title">选择故障现象</view>
+    <view class="select-repair-card">
+      <van-row gutter="20">
+        <van-col span="8">
+          <span>无法制水</span>
+        </van-col>
+        <van-col span="8"><span>更换滤芯</span></van-col>
+        <van-col span="8"><span>显示屏不亮</span></van-col>
+      </van-row>
+    </view>
+  </view>
+  <!-- 故障描述 -->
+  <view class="section">
+    <textarea bindblur="bindTextAreaBlur" value="" placeholder="请输入故障描述" name="textarea" maxlength="100" />
+    </view>
+<view class="device-detail">
+  <van-cell title="设备类型" value="家用净水器" />
+  <van-field value="{{ value }}" label="姓名" placeholder="请输入用户名" />
+  <van-field label="联系电话" value="{{ value }}" placeholder="请输入联系电话"right-icon="edit" />
+  <van-cell title="所在地区" is-link bind:click="showPopup" value="{{valueArea}}"/>
+  <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height:40%">
+    <van-area area-list="{{areaList}}"  bind:confirm="confirm" bind:cancel="onClose"/>
+  </van-popup>
+  <view class="section">
+    <textarea bindblur="bindTextAreaBlur" value="" placeholder="请输入详细地址（例如：**街**号**）" name="textarea" maxlength="-1" />
+    </view>
+  <van-cell title="预约上门时间" is-link bind:click="showTime" value="{{currentDate}}" />
+  <van-popup show="{{ showDate }}" bind:close="onClose" position="bottom" custom-style="height:40%">
+    <van-datetime-picker
+  type="datetime"
+  value="{{ currentDate }}"
+  min-date="{{ minDate }}"
+  formatter="{{ formatter }}"
+  filter="{{ filter }}"
+  bind:confirm="confirmTime"
+  bind:cancel="onClose"
+/>
+  </van-popup>
+  <!-- 底部按钮 -->
+  <!-- <view class="device-detail-btn">
+    <van-button type="info" size="large">提交</van-button>
+  </view> -->
+</view>
+</view>

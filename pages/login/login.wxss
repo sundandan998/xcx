@@ -1,0 +1,44 @@
+/* pages/login/login.wxss */
+.login{
+  width: 85%;
+  margin:0 auto;
+}
+.login-title{
+  text-align: center;
+  color:#000;
+  font-size: 18px;
+  font-weight: 7000;
+}
+.login-title-top{
+  color: #343434;
+  font-size: 18px;
+  font-weight: 7000;
+  text-align: center;
+}
+.van-cell{
+  background-color: #F7F6F6 !important;
+  margin-top: 20px;
+  border-radius:20px !important;
+  height: 47px !important;
+  }
+  .van-icon, .van-icon:before{
+    color:#9A9A9A !important;
+    margin-right: 5px;
+  }
+  .van-button--info {
+    background-color: #5474FF !important;
+  }
+.login-agreement{
+  color: #9A9A9A;
+  margin-top: 20px;
+  font-size:14px;
+}
+.login-agreement-text{
+  color: #5474FF;
+}
+.login-btn{
+  margin: 50px 0 20px 0;
+}
+.login-last-text{
+text-align: center;
+}

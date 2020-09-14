@@ -1,0 +1,15 @@
+/* pages/transferCard/transferCard.wxss */
+.card-title{
+  font-size: 14px;
+  color:#9A9A9A;
+  margin: 20px;
+}
+.card-btn {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 90%;
+  border-radius: 15px;
+}

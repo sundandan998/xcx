@@ -1,0 +1,19 @@
+<!--pages/transferCard/transferCard.wxml-->
+<view class="card">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" />
+  </page-meta>
+  <view class="card-notice">
+    <van-notice-bar
+  left-icon="volume-o"
+  text="转移时请保持在设备5米内并开启蓝牙，否则将转移失败！"
+/>
+  </view>
+  <view class="card-title">请选择要将卡费转移到净水器的卡</view>
+  <!-- 按钮 -->
+  <view class="card-btn">
+  <van-button type="info" size="large" bindtap="dialog">转移</van-button>
+</view>
+</view>

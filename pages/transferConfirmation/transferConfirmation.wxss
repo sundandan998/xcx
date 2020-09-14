@@ -1,0 +1,47 @@
+/* pages/transferConfirmation/transferConfirmation.wxss */
+page{
+  background-color: #f2f2f2;
+}
+.transfer-con{
+  width: 90%;
+  margin: 0 auto;
+}
+.transfer-con-title{
+  color: #999999;
+  font-size: 14px;
+  margin: 20px auto;
+}
+.transfer-con-info{
+  background-color: #fff;
+  height: auto;
+  border-radius: 10px;
+}
+.transfer-con-info-card{
+  border-bottom: 1px dashed #9999;
+  padding: 15px;
+}
+.transfer-con-info-meal{
+  border-bottom: 1px dashed #9999;
+  padding: 15px 15px 10px 15px;
+}
+.transfer-con-info-name{
+  padding: 15px;
+}
+.transfer-con-info-l{
+  color: #999999;
+  font-size: 16px;
+  margin-right: 7px;
+  line-height: 33px;
+}
+.transfer-con-info-r{
+  color: #333;
+  font-size: 16px;
+}
+.transfer-con-btn {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 90%;
+}

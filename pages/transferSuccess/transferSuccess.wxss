@@ -1,0 +1,31 @@
+/* pages/transferSuccess/transferSuccess.wxss */
+page{
+  background-color: #f2f2f2;
+}
+.transfer-success{
+  width: 90%;
+  margin: 0 auto;
+}
+.transfer-success-tip image{
+  width: 60px;
+  height: 60px;
+  margin: 20px auto 10px auto;
+  display: block;
+}
+.transfer-success-text{
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+}
+.transfer-btn{
+  margin-bottom: 20px;
+  display: block;
+}
+.transfer-succes-btn{
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 90%;
+}

@@ -1,0 +1,93 @@
+/* pages/rechargeRecord/rechargeRecord.wxss */
+page {
+  background-color: #f2f2f2;
+}
+.recharge-data{
+  margin: 10px 15px;
+}
+.van-cell{
+background-color: #f2f2f2 !important;
+}
+.total-recharge{
+  color: #9A9A9A;
+}
+.van-cell__title, .van-cell__value{
+  margin-left: -15px;
+  color: #333;
+}
+.recharge-data image{
+  width:18px;
+  height: 18px;
+  position: absolute;
+  left: 77px;
+  top: 13px;
+}
+.record-list{
+  margin-top: 20px;
+  background-color: #fff;
+  height: 115px;
+}
+.record-list-text{
+  margin: 0px 15px;
+  padding-top: 15px;
+}
+.record-list-text-name{
+  font-size: 15px;
+  color:#343434;
+  font-weight: 700;
+}
+.record-list-text-num{
+  color: #FFB052;
+  font-size: 21px;
+}
+.record-one{
+  height: 35px;
+}
+. record-admin{
+  font-size: 14px;
+  color:#343434;
+}
+.record-tel{
+  height: auto;
+  background-color: #E8EDFF;
+  color:#8098FE;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+.record-time{
+  color:#8098FE;
+  font-size: 14px;
+
+}
+.record-date{
+  color:#9A9A9A;
+  font-size: 13px;
+}
+.record-day{
+  font-size: 14px;
+  color:#343434;
+}
+.record-tel-y{
+  height: auto;
+  background-color: #FCEDDB;
+  color:#FFB052;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+.record-time-y{
+  color:#FFB052;
+  font-size: 14px;
+
+}
+.record-date-y{
+  color:#9A9A9A;
+  font-size: 13px;
+}
+.record-day-y{
+  font-size: 14px;
+  color:#343434;
+}

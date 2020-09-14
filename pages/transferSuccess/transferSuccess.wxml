@@ -1,0 +1,16 @@
+<!--pages/transferSuccess/transferSuccess.wxml-->
+<view class="transfer-success">
+  <!-- 头部导航 -->
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" />
+  </page-meta>
+  <view class="transfer-success-tip">
+    <image src="../../images/success.png"></image>
+    <view class="transfer-success-text">转移成功</view>
+  </view>
+  <view class="transfer-succes-btn">
+  <van-button type="info" size="large" bindtap="detail" class="transfer-btn">转移详情</van-button>
+  <van-button type="default" size="large" bindtap="back">返回首页</van-button>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/service/service.wxml-->
+<view class="service">
+    <!-- 头部导航 -->
+    <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" color-animation-timing-func="easeIn" />
+  </page-meta>
+  <view class="service-tel">
+    <view>客服电话：XXXXXXXXXXX </view>
+  </view>
+</view>

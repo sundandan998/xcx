@@ -1,0 +1,46 @@
+/* pages/bindingdevice/bindingdevice.wxss */
+page {
+  background-color: #f2f2f2;
+}
+
+.binding-device {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.select-device {
+  margin: 10px auto;
+}
+
+.van-cell {
+  border-radius: 5px;
+}
+
+.van-ellipsis {
+  position: fixed;
+  left: 32px;
+  top: 27px;
+}
+
+.van-dropdown-menu__title:after {
+  position: fixed !important;
+  right: 36px !important;
+  top: 36px !important;
+}
+
+.select-device image {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: -32px;
+  left: 80px
+}
+
+.bind-device-btn {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 90%;
+}

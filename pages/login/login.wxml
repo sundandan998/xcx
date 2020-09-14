@@ -1,0 +1,36 @@
+<view class="login">
+  <view class="login-title"> 项目名称</view>
+  <view class="login-logo"></view>
+  <view class="login-title-top"> 项目名称</view>
+  <view class="login-from">
+    <van-cell-group>
+  <van-field
+    value="{{ username }}"
+    clearable
+    left-icon="phone-o"
+    label=""
+    placeholder="请输入用户名"
+    bind:click-icon="onClickIcon"
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ password }}"
+    type="password"
+    left-icon="bag-o"
+    label=""
+    clearable
+    placeholder="请输入密码"
+    border="{{ false }}"
+  />
+</van-cell-group>
+  </view>
+  <view class="login-agreement">
+    <span>*登录即代表您同意<span class="login-agreement-text">《用户协议》</span> </span><span class="fr" bindtap="jumppwd">忘记密码？</span>
+  </view>
+  <view class="login-btn">
+    <van-button type="info" round  size="large">登 录</van-button>
+  </view>
+  <view class="login-last-text">
+      <span class="login-agreement">还没有账号？</span><span class="login-agreement-text" bindtap="jumpreg">立即注册</span>
+  </view>
+</view>

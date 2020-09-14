@@ -1,0 +1,62 @@
+<!--pages/data/data.wxml-->
+<view class="data">
+  <!-- 设备数据 -->
+  <view class="data-top">
+    <view class="data-title">设备数据</view>
+    <image src="../../images/ellipse.png" class="fr"></image>
+  </view>
+  <!-- 优质水 -->
+  <view class="data-water">
+    <view class="data-water-title">
+      <image src="../../images/water.png"></image>
+      <span class="data-water-title-top-text">水质优，可放心饮用！</span>
+    </view>
+    <view class="data-water-bot">
+      <van-row>
+        <van-col span="8">
+          <span class="data-water-bot-num">144TDS</span>
+          <view class="data-water-bot-text">自来水水质</view>
+        </van-col>
+        <van-col span="8">
+          <view class="data-water-bot-jh">净化</view>
+          <image src="../../images/shape.png" class="data-water-center"></image>
+        </van-col>
+        <van-col span="8">
+          <span class="data-water-bot-blue">006TDS</span>
+          <view class="data-water-bot-text">净化后水质</view>
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+  <!-- 滤芯使用情况 -->
+  <view class="data-situation">
+    <view class="data-situation-title">滤芯使用情况</view>
+    <view class="data-situation-card">
+      <van-row gutter="10">
+        <van-col span="12">
+          <view class="data-situation-card-list">
+            <view><span class="data-situation-card-round"></span><span class="data-situation-card-num">1</span><span class="data-situation-card-name">PP棉滤芯</span> </view>
+            <view class="data-situation-card-day">预计剩余天数<span  class="data-situation-card-name">100天</span></view>
+            <view class="data-situation-card-step"><van-progress percentage="50" /></view>
+          </view>
+        </van-col>
+        <van-col span="12">
+          <view class="data-situation-card-list">
+            <view><span class="data-situation-card-round"></span><span class="data-situation-card-num">2</span><span class="data-situation-card-name">前置活性炭滤芯</span> </view>
+            <view class="data-situation-card-day">预计剩余天数<span  class="data-situation-card-name">100天</span></view>
+            <view class="data-situation-card-step"><van-progress percentage="90" /></view>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+  <!-- 已选套餐类型 -->
+  <view class="data-select-meal">
+    <view class="data-select-meal-title">已选套餐类型</view>
+    <view class="data-select-meal-detail">
+      <view><span>套餐一(时间套餐)</span> <image src="../../images/shape.png"></image> <span class="data-select-meal-mounth">3个月(30元)</span></view>
+      <view>套餐剩余 88天</view>
+      <view class="data-select-meal-date">数据更新时间：2020-07-22  14:36</view>
+    </view>
+  </view>
+</view>

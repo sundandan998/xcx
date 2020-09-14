@@ -1,0 +1,28 @@
+<!--pages/transferConfirmation/transferConfirmation.wxml-->
+<view class="transfer-con">
+    <!-- 头部导航 -->
+    <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}"
+      background-color="{{nbBackgroundColor}}" color-animation-duration="0" />
+  </page-meta>
+  <view class="transfer-con-title">以下是您需要确认的信息</view>
+  <view class="transfer-con-info">
+    <view class="transfer-con-info-card">
+      <view><span class="transfer-con-info-l">水卡号 : </span><span class="transfer-con-info-r">1347565885</span></view>
+      <view><span class="transfer-con-info-l">姓名 : </span><span class="transfer-con-info-r">张三</span></view>
+      <view><span class="transfer-con-info-l">手机号 : </span><span class="transfer-con-info-r">1347565885</span></view>
+    </view>
+    <view class="transfer-con-info-meal">
+      <view><span class="transfer-con-info-l">已选套餐 : </span><span class="transfer-con-info-r">套餐一（时间套餐）</span></view>
+      <view><span class="transfer-con-info-l">已选套餐价格 : </span><span class="transfer-con-info-r">30元</span></view>
+    </view>
+    <view class="transfer-con-info-name">
+      <view><span class="transfer-con-info-l">转到 : </span><span class="transfer-con-info-r">张三家净水器</span></view>
+      <view><span class="transfer-con-info-l">净水器ID : </span><span class="transfer-con-info-r">1234659876543</span></view>
+      <view><span class="transfer-con-info-l">净水器名称 : </span><span class="transfer-con-info-r">张三家的净水器</span></view>
+    </view>
+    <div class="transfer-con-btn">
+      <van-button type="info" size="large" bindtap="sure">确认</van-button>
+    </div>
+  </view>
+</view>

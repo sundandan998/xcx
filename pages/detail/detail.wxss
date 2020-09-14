@@ -1,0 +1,34 @@
+/* pages/detail/detail.wxss */
+page{
+  background-color: #f2f2f2;
+}
+.detail{
+  width: 90%;
+  margin: 0 auto;
+}
+.detail-info{
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.detail-info-card{
+  border-bottom: 1px dashed #9999;
+  padding: 15px;
+}
+.detail-info-meal{
+  border-bottom: 1px dashed #9999;
+  padding: 15px 15px 10px 15px;
+}
+.detail-info-name{
+  padding: 15px;
+}
+.detail-info-l{
+  color: #999999;
+  font-size: 16px;
+  margin-right: 7px;
+  line-height: 33px;
+}
+.detail-info-r{
+  color: #333;
+  font-size: 16px;
+}

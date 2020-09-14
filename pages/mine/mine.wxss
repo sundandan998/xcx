@@ -1,0 +1,46 @@
+/* pages/mine/mine.wxss */
+page{
+  background-color: #f2f2f2;
+}
+.mine-top{
+  overflow: hidden;
+  height: 205px;
+}
+.mine-top image{
+width: 100%;
+position:absolute;
+
+}
+.mine-top-title{
+  position:relative;
+z-index: 1;
+text-align: center;
+margin: 20px auto;
+font-size: 18px;
+color: #fff;
+font-weight: 700;
+}
+.mine-username{
+  position:relative;
+  z-index: 1;
+
+}
+.mine-username image{
+width: 44px;
+height: 44px;
+margin: 0 20px;
+}
+.mine-username-text{
+  margin-left: 80px;
+  font-size: 16px;
+  color: #fff;
+}
+.mine-btn{
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 90%;
+  border-radius: 15px;
+}

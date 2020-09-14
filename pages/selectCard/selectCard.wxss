@@ -1,0 +1,71 @@
+/* pages/selectCard/selectCard.wxss */
+.meal {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.meal-one-text {
+  font-size: 14px;
+  color: #9A9A9A;
+  margin: 20px 0;
+}
+
+.meal-one-money {
+  width: 90%;
+  height: 65px;
+  background-color: #5074FF;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.meal-one-money-num {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.meal-one-money-price {
+  font-size: 12px;
+}
+
+.meal-one-money-noselect {
+  width: 90%;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #5074FF;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid #5074FF;
+}
+
+.meal-two-money {
+  width: 90%;
+  height: 65px;
+  background-color: #FFA436;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.meal-two-money-noselect {
+  width: 90%;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #FFA436;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid #FFA436;
+}
+
+.transfer-btn {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 90%;
+}

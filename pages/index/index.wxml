@@ -1,0 +1,56 @@
+<view class="index">
+  <!-- 用户头像 -->
+  <view class="index-info">
+    <image src="../../images/add.png" class="index-add" bindtap="jumpdevice"></image>
+    <!-- 下拉菜单 -->
+    <open-data type="userAvatarUrl" class="index-info-img"> </open-data> <span class="index-equipment"> 
+      <van-dropdown-menu active-color="#5474FF">
+      <van-dropdown-item value="{{ value1 }}" options="{{ option }}" />
+    </van-dropdown-menu>
+    </span>
+  </view>
+  <!-- 连接设备 -->
+  <!-- <view class="index-connect"> <span class="indx-round-red"> </span> <span>设备未连接</span>  </view> -->
+  <view class="index-connect"> <span class="indx-round-green"> </span> <span class="index-connect-text">设备已连接</span>
+  </view>
+  <!-- 通知 -->
+  <view class="index-notice">
+    <image class="index-notice-img" src='/images/notice.png'></image> 保持在设备5米内并开启蓝牙即可完成充值！
+  </view>
+  <!-- 轮播 -->
+  <view class="index-swipe">
+    <swiper autoplay="true">
+      <swiper-item>
+        <image src="../../images/swipe1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/swipe2.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/swipe3.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 模块 -->
+  <view class="index-modular">
+    <view class="index-modular-top">
+      <view class="index-recharge modular-shadow fl"  bindtap="jumprecharge">
+        <image src="../../images/recharge.png"></image>
+        <view class="index-modular-text"> 我要充值</view>
+      </view>
+      <view class="index-redore modular-shadow fr" bindtap="jumprecord">
+        <image src="../../images/record.png"></image>
+        <view class="index-modular-text">充值记录</view>
+      </view>
+    </view>
+    <view class="index-modular-bot"></view>
+    <view class="index-transfer  modular-shadow fl"  bindtap="jumpcard">
+      <image src="../../images/transfer.png"></image>
+      <view class="index-modular-text"> 卡费转移</view>
+    </view>
+    <view class="index-repair modular-shadow fr"  bindtap="repair">
+      <image src="../../images/repair.png"></image>
+      <view class="index-modular-text"> 在线报修</view>
+    </view>
+  </view>
+</view>
